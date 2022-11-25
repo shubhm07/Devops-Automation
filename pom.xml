@@ -31,11 +31,6 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-actuator</artifactId>
 		</dependency>
-		<dependency>
-			<groupId>org.springframework.data</groupId>
-			<artifactId>spring-data-elasticsearch</artifactId>
-			<version>3.8.6.RELEASE</version>
-		</dependency>
 	</dependencies>
 
 	<build>
@@ -62,6 +57,7 @@
 				<artifactId>git-commit-id-plugin</artifactId>
 			</plugin>
 		</plugins>
+		<finalName>devops-integration</finalName>
 	</build>
 
 </project>
